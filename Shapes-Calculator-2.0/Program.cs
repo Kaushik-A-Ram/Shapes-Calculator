@@ -26,6 +26,9 @@ namespace Shapes_Calculator_2._0
         public float Height { get; }
         public float Width { get; }
 
+        // Default constructor
+        public RectangleOverride() : this(1, 1) { }
+
         // constructor used to create instance of RectangleOverride
         public RectangleOverride(float height, float width)
         {
@@ -46,6 +49,9 @@ namespace Shapes_Calculator_2._0
         public float Height { get; }
         public float Width { get; }
 
+        // Default constructor
+        public Rectangle() : this(1, 1) { }
+
         public Rectangle(float height, float width)
         {
             Height = height;
@@ -62,6 +68,9 @@ namespace Shapes_Calculator_2._0
     {
         public float Side { get; }
 
+        // Default constructor
+        public Square() : this(1) { }
+
         public Square(float side)
         {
             Side = side;
@@ -76,6 +85,9 @@ namespace Shapes_Calculator_2._0
     class Circle : IShape
     {
         public float Radius { get; }
+
+        // Default constructor
+        public Circle() : this(1) { }
 
         public Circle(float radius)
         {
@@ -95,6 +107,9 @@ namespace Shapes_Calculator_2._0
         public float Height { get; }
         public float Side1 { get; }
         public float Side2 { get; }
+
+        // Default constructor
+        public Trapezoid() : this(1, 1, 1, 1, 1) { }
 
         public Trapezoid(float base1, float base2, float height, float side1, float side2)
         {
