@@ -1,6 +1,6 @@
 ﻿namespace Shapes_Calculator
 {
-    internal class Program
+    internal class Shapes1
     {
         static void Main(string[] args)
         {

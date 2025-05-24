@@ -44,7 +44,7 @@ namespace Shapes_Calculator_2._0
     }
 
     // calculate the rectangle area or perimeter
-    class Rectangle : IShape
+    public class Rectangle : IShape
     {
         public float Height { get; }
         public float Width { get; }
@@ -64,7 +64,7 @@ namespace Shapes_Calculator_2._0
     }
 
     // calculate the square area or perimeter
-    class Square : IShape
+    public class Square : IShape
     {
         public float Side { get; }
 
@@ -82,7 +82,7 @@ namespace Shapes_Calculator_2._0
     }
 
     // calculate the Circle area or perimeter
-    class Circle : IShape
+    public class Circle : IShape
     {
         public float Radius { get; }
 
@@ -100,7 +100,7 @@ namespace Shapes_Calculator_2._0
     }
 
     // calculate the trapezoid area or perimeter
-    class Trapezoid : IShape
+    public class Trapezoid : IShape
     {
         public float Base1 { get; }
         public float Base2 { get; }
@@ -126,7 +126,7 @@ namespace Shapes_Calculator_2._0
     }
 }
 
-internal class Program
+internal class Shapes2
 {
     static void Main(string[] args)
     {
